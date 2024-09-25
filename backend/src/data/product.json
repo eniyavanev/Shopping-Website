@@ -1,0 +1,89 @@
+[
+    {
+       
+        "name": "Product 1",
+        "price": 100,
+        "description": "This is product 1",
+        "category": "Electronics",
+        "images": [
+            {
+                "image": "https://picsum.photos/200/300"
+                
+            }
+        ],
+        "reviews": [],
+        "ratings": 5,
+        "stock": 10,
+        "seller": "Amazon",
+        "numOfReviews": 0
+    },
+    {
+        "name": "Product 2",
+        "price": 200,
+        "description": "This is product 2",
+        "category": "Electronics",
+        "images": [
+            {
+                "image": "https://picsum.photos/200/300"
+                
+            }
+        ],
+        "reviews": [],
+        "ratings": 4,
+        "stock": 10,
+        "seller": "Amazon",
+        "numOfReviews": 0
+    },
+    {
+        "name": "Product 3",
+        "price": 300,
+        "description": "This is product 3",
+        "category": "Electronics",  
+        "images": [
+            {
+                "image": "https://picsum.photos/200/300"
+                
+            }
+        ],
+        "reviews": [],
+        "ratings": 3,
+        "stock": 10,
+        "seller": "Amazon",
+        "numOfReviews": 0
+    },
+    {
+        "name": "Product 4",
+        "price": 400,
+        "description": "This is product 4",
+        "category": "Electronics",
+        "images": [
+
+            {
+                "image": "https://picsum.photos/200/300"
+                
+            }
+        ],
+        "reviews": [],
+        "ratings": 2,
+        "stock": 10,
+        "seller": "Amazon",
+        "numOfReviews": 0
+    },
+    {
+        "name": "Product 5",
+        "price": 500,
+        "description": "This is product 5",
+        "category": "Electronics",
+        "images": [
+            {
+                "image": "https://picsum.photos/200/300"
+                
+            }
+        ],
+        "reviews": [],
+        "ratings": 1,
+        "stock": 10,
+        "seller": "Amazon",
+        "numOfReviews": 0
+    }
+]

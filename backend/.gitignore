@@ -1,0 +1,5 @@
+node_modules
+
+#remove controllers and env
+.env
+src/Controllers
