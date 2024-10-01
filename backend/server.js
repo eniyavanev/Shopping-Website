@@ -7,11 +7,15 @@ dotenv.config();
 const connectDB = require("./src/DB/connectDB.js");
 
 const productRoutes = require("../backend/src/Routes/productRoutes.js");
+const authRoutes = require("../backend/src/Routes/authRoutes.js");
+const orderRoutes = require("../backend/src/Routes/orderRoutes.js");
 const { notFound, errorHandler } = require("./src/Middleware/errorMiddler.js");
+const cookieParser = require("cookie-parser");
 
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
 connectDB();
 
 // app.get("/", (req, res) => {
@@ -19,6 +23,8 @@ connectDB();
 // });
 
 app.use("/api/products", productRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/api/orders", orderRoutes);
 app.use(notFound);
 app.use(errorHandler);
 const port = process.env.PORT || 5000;

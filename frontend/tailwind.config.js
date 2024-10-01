@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'lora': ['Lora', 'serif'],
+        'updock': ['Updock', 'cursive'],
+      },
+      colors: {
+        'amazon-orange': '#FF9900',
+        'amazon-blue': '#146EB4',
+      },
+    },
   },
   plugins: [],
 }
