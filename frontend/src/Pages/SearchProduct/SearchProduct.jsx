@@ -13,18 +13,23 @@ import {
   faAngleDoubleLeft,
   faAngleDoubleRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { useParams } from "react-router-dom";
 
-const Home = () => {
+const SearchProduct = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [showPagination, setShowPagination] = useState(false); // State to control pagination visibility
+  const [showPagination, setShowPagination] = useState(false); 
 
-  const { data, isLoading, error } = useGetProductsQuery({null: null, page: currentPage });
-
-  const handlePageChange = (pageNumber) => {
-    setCurrentPage(pageNumber);
-  };
+  const { search } = useParams(); // Get the search parameter from the route
+  const { data, isLoading, error } = useGetProductsQuery({
+    search, 
+    page: currentPage,
+  });
 
   useEffect(() => {
+    // Log data and errors
+    console.log("API Response Data:", data);
+    console.log("API Error:", error);
+
     // Error handling using toast notifications
     if (error && error.data) {
       toast.error(error.data.message || "An unexpected error occurred.", {
@@ -34,21 +39,25 @@ const Home = () => {
         draggable: true,
       });
     }
-  }, [error]);
+  }, [data, error]);
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
 
   useEffect(() => {
-    // If product count is greater than 3, show pagination
+    // Show pagination if product count is greater than 3
     if (data?.count > 3) {
       setShowPagination(true);
     } else {
       setShowPagination(false); // Hide pagination if 3 or fewer products
     }
-  }, [data?.count]); // Re-run this effect whenever the count of products changes
+  }, [data?.count]);
 
   return (
     <>
-      <Metadata title="All Products" />
-      <h1 className="text-4xl font-bold p-6">Latest Products</h1>
+      <Metadata title="Searched Products" />
+      <h1 className="text-4xl font-bold p-6">Searched Products</h1>
 
       {/* Show loader if data is loading */}
       {isLoading ? (
@@ -86,7 +95,7 @@ const Home = () => {
                     </span>
                   }
                   prevPageText={
-                      <span className="flex items-center space-x-1">
+                    <span className="flex items-center space-x-1">
                       <FontAwesomeIcon icon={faArrowLeft} />
                       <span>Prev</span>
                     </span>
@@ -115,4 +124,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default SearchProduct;
