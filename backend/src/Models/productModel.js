@@ -2,11 +2,11 @@ const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema(
   {
-    user: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
-      required: true,
-    },
+    // user: {
+    //   type: mongoose.Schema.Types.ObjectId,
+    //   ref: "User",
+    //   required: true,
+    // },
     name: {
       type: String,
       required: [true, "Please enter product name"],
@@ -78,7 +78,6 @@ const productSchema = new mongoose.Schema(
         rating: {
           type: Number,
           required: true,
-          
         },
         comment: {
           type: String,

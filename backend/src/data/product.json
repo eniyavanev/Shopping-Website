@@ -1,89 +1,1517 @@
 [
     {
-       
-        "name": "Product 1",
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
         "price": 100,
-        "description": "This is product 1",
-        "category": "Electronics",
-        "images": [
-            {
-                "image": "https://picsum.photos/200/300"
-                
-            }
-        ],
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
         "reviews": [],
-        "ratings": 5,
-        "stock": 10,
-        "seller": "Amazon",
-        "numOfReviews": 0
-    },
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
     {
-        "name": "Product 2",
-        "price": 200,
-        "description": "This is product 2",
-        "category": "Electronics",
+   
+        "name": "Shoes",
         "images": [
-            {
-                "image": "https://picsum.photos/200/300"
-                
-            }
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
         ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
         "reviews": [],
-        "ratings": 4,
-        "stock": 10,
-        "seller": "Amazon",
-        "numOfReviews": 0
-    },
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
     {
-        "name": "Product 3",
-        "price": 300,
-        "description": "This is product 3",
-        "category": "Electronics",  
+   
+        "name": "Shoes",
         "images": [
-            {
-                "image": "https://picsum.photos/200/300"
-                
-            }
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
         ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
         "reviews": [],
-        "ratings": 3,
-        "stock": 10,
-        "seller": "Amazon",
-        "numOfReviews": 0
-    },
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
     {
-        "name": "Product 4",
-        "price": 400,
-        "description": "This is product 4",
-        "category": "Electronics",
+   
+        "name": "Shoes",
         "images": [
-
-            {
-                "image": "https://picsum.photos/200/300"
-                
-            }
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
         ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
         "reviews": [],
-        "ratings": 2,
-        "stock": 10,
-        "seller": "Amazon",
-        "numOfReviews": 0
-    },
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
     {
-        "name": "Product 5",
-        "price": 500,
-        "description": "This is product 5",
-        "category": "Electronics",
+   
+        "name": "Shoes",
         "images": [
-            {
-                "image": "https://picsum.photos/200/300"
-                
-            }
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
         ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
         "reviews": [],
-        "ratings": 1,
-        "stock": 10,
-        "seller": "Amazon",
-        "numOfReviews": 0
-    }
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      },
+    {
+   
+        "name": "Shoes",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/Shoes.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Shoes-1.jpg"
+          }
+        ],
+    
+        "price": 100,
+        "rating": 4.5,
+        "description":
+          "Casual Shoes for Men in Red Color in Nike Brand With All Sizes",
+        "reviews": [],
+        "numOfReviews": 10,
+        "seller":"Amazon",
+        "stock":6,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Water Bottle",
+        "images": [
+         {
+           "image": "../../../src/assets/Images/Water-Bottle.jpg"
+         },
+          {
+            "image":"../../../src/assets/Images/WaterBottle-1.jpg"
+          }
+        ],
+        "price": 50,
+        "rating": 3.5,
+        "description": "Water Bottle Gray Color",
+        "reviews": [],
+        "numOfReviews": 5,
+        "seller":"Amazon",
+        "stock":3,
+        "category":"Sports"
+      },
+      {
+       
+        "name": "Sofa",
+        "image": [{
+          "image": "../../../src/assets/Images/Sofa.jpg"
+        }, 
+        {
+          "image": "../../../src/assets/Images/Sofa-1.jpg"
+        }],
+        "price": 5000,
+        "rating": 5,
+        "description": "Sofa for Modern Home",
+        "reviews": [],
+        "numOfReviews": 1,
+        "seller":"Amazon",
+        "stock":8,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "T-Shirt",
+        "images": [
+          {
+            "image": "../../../src/assets/Images/T-Shirt.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/T-Shirt-1.jpg"
+          }
+        ],
+    
+        "price": 1000,
+        "rating": 4,
+        "description": "T-Shirt for Men",
+        "reviews": [],
+        "numOfReviews": 3,
+        "seller":"Amazon",
+        "stock":2,
+        "category":"Clothes/Shoes"
+      },
+      {
+       
+        "name": "Mobile",
+        "image": [
+          {
+            "image": "../../../src/assets/Images/Mobile.jpg"
+          },
+          {
+            "image":"../../../src/assets/Images/Mobile-1.jpg"
+          }
+        ],
+        "price": 15000,
+        "rating": 5,
+        "description": "Latest Mobile Collections",
+        "reviews": [],
+        "numOfReviews": 2,
+        "seller":"Amazon",
+        "stock":4,
+        "category":"Electronics"
+      }
 ]

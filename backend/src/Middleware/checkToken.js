@@ -8,13 +8,17 @@ const checkToken = asyncHandler(async (req, res, next) => {
     const { token } = req.cookies;
 
     if (!token) {
-        return next(new Error("Not authorized, no token"));
+        const error = new Error("LogIn first to access this resource");
+        res.statusCode = 401;
+        return next(error,  res);
     }
 
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     const user = await User.findById(decoded.id);
     if (!user) {
-        return next(new Error("Not authorized, user not found"));
+        const error = new Error("User not found, please login");
+        res.statusCode = 401;
+        return next(error,  res);
     }
     req.user = user;
     next();
@@ -24,9 +28,11 @@ const checkToken = asyncHandler(async (req, res, next) => {
 const authorizeRoles = (...roles) => {
     return (req, res, next) => {
       if (!roles.includes(req.user.role)) {
-        return next(
-          new Error(`Role: ${req.user.role} is not allowed to access this route`)
+        const error = new Error(
+          `Role: ${req.user.role} is not allowed to access this resource`
         );
+        res.statusCode = 403;
+        return next(error, res);
       }
       next();
     };
